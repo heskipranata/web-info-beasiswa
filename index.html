@@ -297,6 +297,50 @@
       </div>
     </section>
 
+    <section class="relative bg-cover bg-center bg-no-repeat py-20 px-16" style="background-image: url('./assets/img/bg1.jpg');">
+      <!-- Overlay hitam transparan -->
+      <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+    
+      <div class="relative container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center p-10">
+        
+       
+    
+        <!-- Kanan: Formulir -->
+        <form class="bg-white bg-opacity-90 p-6 rounded-lg shadow-md max-w-lg w-full relative z-10">
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-semibold">Nama</label>
+            <input type="text" id="name" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+          </div>
+    
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-semibold">Email</label>
+            <input type="email" id="email" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500">
+          </div>
+    
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-semibold">Pesan</label>
+            <textarea id="message" class="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500" rows="4"></textarea>
+          </div>
+    
+          <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md font-semibold hover:bg-blue-700 transition-all duration-300">
+            Kirim Pesan
+          </button>
+        </form>
+
+         <!-- Kiri: Judul & Penjelasan -->
+         <div class="text-white relative z-10">
+          <h2 class="text-4xl font-bold">Hubungi Kami</h2>
+          <p class="mt-4">
+            Jika Anda memiliki pertanyaan atau ingin mengetahui lebih lanjut tentang beasiswa, jangan ragu untuk menghubungi kami melalui formulir ini.
+          </p>
+        </div>
+    
+      </div>
+    </section>
+    
+    
+    
+
     <script>
       document
         .getElementById("menu-btn")
